@@ -1,0 +1,52 @@
+{
+    "editor.fontFamily": "Monaspace Neon Var, Monaspace Argon Var, Monaspace Xenon Var, Monaspace Radon Var, Monaspace Krypton Var",
+    "editor.fontSize": 16,
+    "editor.fontVariations": "'wght' 200",
+    "editor.fontLigatures": "'calt', 'ss07', 'ss09', 'liga'",
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "scope": "comment.line",
+          "name": "Radon",
+          "settings": { "fontStyle": "italic" }
+        },
+        {
+          "scope": "comment.block",
+          "name": "Xenon",
+          "settings": { "fontStyle": "bold" }
+        },
+        {
+          "scope": "variable.other.property",
+          "name": "Neon",
+          "settings": { "fontStyle": "italic" }
+        },
+        {
+          "scope": "keyword.control",
+          "name": "Argon",
+          "settings": { "fontStyle": "bold" }
+        },
+        {
+          "scope": ["entity.name.type"],
+          "name": "Krypton",
+          "settings": { "fontStyle": "italic" }
+        },
+        {
+          "scope": ["entity.name.function"],
+          "name": "Neon",
+          "settings": { "fontStyle": "italic" }
+        }
+      ]
+    },
+  
+    "editor.inlineSuggest.fontFamily": "Monaspace Krypton",
+  
+    "terminal.integrated.fontFamily": "Monaspace Krypton",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": 500,
+    "terminal.integrated.fontWeightBold": 800,
+  
+    "git.autofetch": true,
+  
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+  
